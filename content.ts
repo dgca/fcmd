@@ -27,7 +27,7 @@ window.addEventListener("load", () => {
       border-radius: 5px;
     }
 
-    .${processedClassName} ul {
+    .${processedClassName} ul, .${processedClassName} ol {
       list-style: initial;
     }
   `;
