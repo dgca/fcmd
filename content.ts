@@ -1,11 +1,16 @@
 import type { PlasmoCSConfig } from "plasmo";
 import * as DOMPurify from "dompurify";
 import { marked } from "marked";
-import hljs from "highlight.js/lib/core";
-import javascript from "highlight.js/lib/languages/javascript";
+import hljs from "highlight.js";
+import hljsDefineSolidity from "highlightjs-solidity";
 import styleText from "data-text:highlight.js/styles/github-dark.css";
 
-hljs.registerLanguage("javascript", javascript);
+hljsDefineSolidity(hljs);
+
+marked.use({
+  headerIds: false,
+  mangle: false,
+});
 
 export const config: PlasmoCSConfig = {
   matches: ["https://warpcast.com/*"],
@@ -18,8 +23,12 @@ window.addEventListener("load", () => {
   styleEl.innerHTML = `
     ${styleText}
 
-    .hljs {
+    .${processedClassName} .hljs {
       border-radius: 5px;
+    }
+
+    .${processedClassName} ul {
+      list-style: initial;
     }
   `;
   document.head.appendChild(styleEl);
