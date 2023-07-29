@@ -2,6 +2,17 @@
 
 Markdown support and syntax highlighting on Warpcast.
 
+## Temporary installation instructions
+
+The extension is currently pending review on the Chrome Web Store. In the meantime, you can install it manually by following these steps:
+
+1. Download the latest release from [here](https://github.com/dgca/fcmd/raw/main/download/chrome-mv3-prod.zip)
+2. Unzip the file
+3. Open the Chrome extensions page by typing `chrome://extensions` in the address bar
+4. Enable developer mode by clicking the toggle switch next to "Developer mode" in the top right corner
+5. Click the "Load unpacked" button in the top left corner
+6. Select the unzipped folder
+
 ---
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
