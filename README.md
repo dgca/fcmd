@@ -2,6 +2,8 @@
 
 Markdown support and syntax highlighting on Warpcast.
 
+![Screenshot of cast with markdown and syntax highlighting](./assets/screenshot.png)
+
 ## Temporary installation instructions
 
 The extension is currently pending review on the Chrome Web Store. In the meantime, you can install it manually by following these steps:
@@ -13,11 +15,11 @@ The extension is currently pending review on the Chrome Web Store. In the meanti
 5. Click the "Load unpacked" button in the top left corner
 6. Select the unzipped folder
 
----
+## Getting Started
 
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
-## Getting Started
+---
 
 First, run the development server:
 
