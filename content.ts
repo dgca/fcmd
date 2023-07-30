@@ -28,6 +28,7 @@ window.addEventListener("load", () => {
     }
 
     .${processedClassName} ul, .${processedClassName} ol {
+      padding-left: 1.5em;
       list-style: initial;
     }
   `;

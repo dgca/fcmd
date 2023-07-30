@@ -1,7 +1,7 @@
 {
   "name": "fcmd",
   "displayName": "FCMD",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Markdown support and syntax highlighting in Warpcast",
   "author": "Dan Cortes",
   "license": "MIT",
